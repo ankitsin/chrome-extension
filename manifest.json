@@ -1,0 +1,12 @@
+{
+"name":"Imdb Rating",
+"description":"Rating on evomovies.com",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["http://www.evomovies.com/*","https://www.evomovies.com/*"],
+      "js": ["jquery.min.js","myscript.js"]
+    }
+  ]
+}
